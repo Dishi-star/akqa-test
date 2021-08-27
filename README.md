@@ -2,6 +2,10 @@
 
 To run the project - > mvn test
 
+Please try to re-run the project if the build fails for the first time.
+
+I have used Page Object Model Approach.
+
 This project contains 3 classes
 
 OpenBrowser.java 
