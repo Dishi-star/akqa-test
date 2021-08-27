@@ -48,6 +48,15 @@ public class BunningPage extends OpenBrowser {
 		AssertJUnit.assertEquals("Dulux Ceiling White Paint", lp.nameCheck().getText());
 
 	}
+	
+	// This method is used to check the product quantity and price.
+	@Test
+	public void checkItemQuantityAndPrice() {
+		lp = new LandingPage(driver);
+		AssertJUnit.assertEquals("$30.80", lp.priceCheck().getText());
+		AssertJUnit.assertEquals("Total 1 item(s)", lp.qtyCheck().getText());		
+
+	}
 
 	@AfterTest
 	public void shutdown() {
