@@ -53,4 +53,13 @@ public class LandingPage {
 	public WebElement nameCheck() {
 		return driver.findElement(productName);
 	}
+	
+	public WebElement priceCheck()
+	{
+		return driver.findElement(productPrice);
+	}
+	public WebElement qtyCheck()
+	{
+		return driver.findElement(productQty);
+	}
 }
