@@ -58,6 +58,7 @@ public class LandingPage {
 	{
 		return driver.findElement(productPrice);
 	}
+	
 	public WebElement qtyCheck()
 	{
 		return driver.findElement(productQty);
